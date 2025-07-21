@@ -4,7 +4,7 @@ An interactive web-based application built using React that visualizes the **Bac
 
 ---
 
-## 📌 Project Objectives
+## Project Objectives
 
 - **Visualize forward and backward passes** in a multi-layer neural network
 - **Demonstrate weight adjustments** using gradient descent
@@ -12,7 +12,7 @@ An interactive web-based application built using React that visualizes the **Bac
 
 ---
 
-## 🧠 Core Concepts
+## Core Concepts
 
 This web app simulates:
 
@@ -24,7 +24,7 @@ The mathematical engine is implemented manually — **without using ML libraries
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 | Component        | Technology        |
 |------------------|------------------|
@@ -36,7 +36,7 @@ The mathematical engine is implemented manually — **without using ML libraries
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```plaintext
 backprop-web-app/
@@ -58,14 +58,14 @@ backprop-web-app/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 🔧 Prerequisites
+### Prerequisites
 
 * [Node.js](https://nodejs.org/) (v14+)
 * npm (comes with Node.js)
 
-### 📦 Installation & Run
+### Installation & Run
 
 ```bash
 git clone https://github.com/ShivangiChouhan/BackPropagation_WebApp.git
@@ -78,7 +78,7 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🧪 Educational Use Case
+## Educational Use Case
 
 This tool can be used for:
 
@@ -89,7 +89,7 @@ This tool can be used for:
 
 ---
 
-## 🧮 Algorithm Summary
+## Algorithm Summary
 
 The weight update rule follows:
 
@@ -107,10 +107,10 @@ The gradients are computed using the **chain rule**, and the activation function
 
 ---
 
-## 📌 Author
+## Author
 
 **Shivangi Chouhan**
-Electronics and Telecommunication Engineering
+Internet of Things
 Thakur College of Engineering and Technology, Mumbai
 🔗 [GitHub Profile](https://github.com/ShivangiChouhan)
 
