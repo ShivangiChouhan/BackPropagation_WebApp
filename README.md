@@ -1,75 +1,129 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+Perfect, Shivangi. Based on your React-based neural network visualizer — and the components from `BackpropagationApp.js`, `BackpropMathEngine.js`, and `NeuralNetworkVisualizer.js` — here’s a **clean, professional, academically-sound `README.md`** tailored for your `BackPropagation_WebApp` repository.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+### ✅ Final `README.md` (Copy-paste into your project)
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
+````markdown
 # BackPropagation_WebApp
-Learn Backpropagation in neural networks using my interactive webapp that let's you define inputs, Target output and adjusts weights using forward pass and backpropagation until the prediction matches the target output
->>>>>>> 478845d4b640207afe0b20e370928076232388a2
+
+An interactive web-based application built using React that visualizes the **Backpropagation algorithm** in artificial neural networks. This tool is designed for educational and research purposes to help users intuitively understand the inner mechanics of feedforward propagation and gradient-based learning.
+
+---
+
+## 📌 Project Objectives
+
+- **Visualize forward and backward passes** in a multi-layer neural network
+- **Demonstrate weight adjustments** using gradient descent
+- Provide an **interactive UI** for defining inputs, weights, and observing the learning process in real time
+
+---
+
+## 🧠 Core Concepts
+
+This web app simulates:
+
+- **Feedforward Propagation:** Computing outputs from user-defined inputs through activation functions.
+- **Backpropagation Algorithm:** Adjusting weights using calculated loss gradients.
+- **Error Minimization:** Updating weights to minimize prediction error using the derivative chain rule.
+
+The mathematical engine is implemented manually — **without using ML libraries** — to reinforce a conceptual understanding of how each layer computes its outputs and gradients.
+
+---
+
+## ⚙️ Technologies Used
+
+| Component        | Technology        |
+|------------------|------------------|
+| Frontend         | React.js (CRA)   |
+| UI Components    | HTML5, CSS3      |
+| Logic Engine     | JavaScript (Vanilla Math) |
+| State Management | React State Hooks |
+| Version Control  | Git & GitHub     |
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+backprop-web-app/
+│
+├── src/
+│   ├── App.js                     # Root component
+│   ├── BackpropagationApp.js     # Main visualizer logic and UI container
+│   ├── NeuralNetworkVisualizer.js# Canvas drawing for network structure
+│   ├── BackpropMathEngine.js     # Custom math engine for feedforward & backprop
+│   ├── index.js                  # React entry point
+│   └── ...                       # CRA boilerplate files
+│
+├── public/
+│   └── index.html                # App container
+│
+├── package.json
+└── README.md                     # You're here
+````
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+* [Node.js](https://nodejs.org/) (v14+)
+* npm (comes with Node.js)
+
+### 📦 Installation & Run
+
+```bash
+git clone https://github.com/ShivangiChouhan/BackPropagation_WebApp.git
+cd BackPropagation_WebApp
+npm install
+npm start
+```
+
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 🧪 Educational Use Case
+
+This tool can be used for:
+
+* **BTech/BE academic demonstrations**
+* **AI/ML course tutorials**
+* **Visual-based concept reinforcement**
+* **Quick testing of backpropagation effects without external libraries**
+
+---
+
+## 🧮 Algorithm Summary
+
+The weight update rule follows:
+
+```
+W := W - η * ∇E
+```
+
+Where:
+
+* `W` = weight
+* `η` = learning rate
+* `∇E` = gradient of error with respect to weight
+
+The gradients are computed using the **chain rule**, and the activation functions (e.g., sigmoid) are manually implemented in `BackpropMathEngine.js`.
+
+---
+
+## 📌 Author
+
+**Shivangi Chouhan**
+Electronics and Telecommunication Engineering
+Thakur College of Engineering and Technology, Mumbai
+🔗 [GitHub Profile](https://github.com/ShivangiChouhan)
+
+---
+
+## 📜 License
+
+This project is open-source 
+
