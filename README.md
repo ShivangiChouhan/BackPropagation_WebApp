@@ -1,10 +1,3 @@
-Perfect, Shivangi. Based on your React-based neural network visualizer — and the components from `BackpropagationApp.js`, `BackpropMathEngine.js`, and `NeuralNetworkVisualizer.js` — here’s a **clean, professional, academically-sound `README.md`** tailored for your `BackPropagation_WebApp` repository.
-
----
-
-### ✅ Final `README.md` (Copy-paste into your project)
-
-````markdown
 # BackPropagation_WebApp
 
 An interactive web-based application built using React that visualizes the **Backpropagation algorithm** in artificial neural networks. This tool is designed for educational and research purposes to help users intuitively understand the inner mechanics of feedforward propagation and gradient-based learning.
